@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import useEmojiPicker from "../../hooks/useEmojiPicker";
 import { BsEmojiLaughing } from "react-icons/bs";
 import { FaHeart } from "react-icons/fa";
+import Coffee from "/src/assets/svg/paper-cup.png";
 
 export default function Modal({
   toggleModal,
@@ -221,11 +222,7 @@ export default function Modal({
           className="group sticky bottom-0 left-0 flex w-full translate-y-20 items-center justify-center gap-x-2 bg-white p-3 font-semibold text-gray-500"
         >
           <div className="flex w-[250px] items-center justify-center rounded-full bg-gray-100 p-2">
-            <img
-              src="/src/assets/svg/paper-cup.png"
-              alt="coffee cup"
-              className="h-4 w-4"
-            />
+            <img src={Coffee} alt="coffee cup" className="h-4 w-4" />
             <span>buymeacoffee.com/ana</span>
           </div>
         </Link>
