@@ -1,3 +1,1 @@
-This is a copy of the Website https://animista.net/
-
-I have done this copy to improve my skills.
+This project is a copy of https://animista.net/, which I used to improve my React skills and learn about TypeScript and CSS animations. The site is responsive and includes tools to download selected CSS animations from favorites and copy the CSS code.
